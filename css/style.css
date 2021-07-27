@@ -88,3 +88,8 @@ h3 , h2 {
         transform: rotate(0);
     }
 }
+@media (max-width: 384px)  {
+    .navbar-brand {
+        font-size:1.5rem;
+    }
+}
