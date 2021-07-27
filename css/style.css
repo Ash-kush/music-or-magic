@@ -1,0 +1,90 @@
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+#title {
+    background-color: #8675A9;
+    color:#fff;
+}
+.title-image {
+    width: 80%;
+    transform: rotate(-15deg);
+}
+.container-fluid {
+    padding:3% 15%;
+}
+#carousel {
+    text-align: center;
+    background-color: #7DEDFF;
+}
+.carousel-image {
+    width:5%;
+    margin:0px 50px 80px;
+}
+.firstimg {
+    width:35%;
+    padding: 5%;
+}
+.navbar-brand {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size:2rem;
+}
+h1 {
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-top: 1.5rem;
+    color:#fff;
+}
+h3 , h2 {
+    font-weight: bold;
+}
+.navbar {
+    padding-bottom: 3.5rem;
+}
+.nav-item {
+    padding:0px 10px;
+}
+#features , .carousel-item , #download , #price-cards {
+    padding:7% 15%;
+}
+.fea {
+    text-align:center;
+    padding:5%;
+}
+.icon {
+    color:#EFBBCF;
+    padding:10px;
+}
+#price-cards {
+    text-align: center;
+}
+.card {
+    padding: 0;
+    margin: 2% 0;
+    text-align: center;
+}
+#download {
+    background-color: #F5C6AA;
+    text-align: center;
+}
+.download-button {
+    margin: 20px 10px;
+}
+.words {
+    color: #fff;
+    font-size: 2rem;
+}
+.footer {
+    text-align: center;
+    background-color: #8675A9;
+    padding: 1% 15%;
+    color:#fff;
+}
+@media (max-width: 990px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .title-image {
+        transform: rotate(0);
+    }
+}
