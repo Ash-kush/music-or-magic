@@ -44,7 +44,7 @@ h3 , h2 {
 .nav-item {
     padding:0px 10px;
 }
-#features , .carousel-item , #download {
+#features , .carousel-item , #download , #price-cards {
     padding:7% 15%;
 }
 .fea {
@@ -61,7 +61,7 @@ h3 , h2 {
 }
 .card {
     padding: 0;
-    margin: 2% 4%;
+    margin: 2% 0;
     text-align: center;
 }
 #download {
@@ -80,4 +80,12 @@ h3 , h2 {
     background-color: #8675A9;
     padding: 1% 15%;
     color:#fff;
+}
+@media (max-width: 990px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .title-image {
+        transform: rotate(0);
+    }
 }
